@@ -21,6 +21,7 @@ h4
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    
 }
 h5
 {
@@ -131,7 +132,11 @@ ul {
 }
 .section-baner
 {
-    background: #2F303A;    
+    background:#2F303A; 
+    background-image: url(/images/background-baner.jpg);
+    background-repeat:no-repeat;   
+    background-position: center;
+    background-size: cover;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -183,6 +188,16 @@ ul {
     letter-spacing: 0.03em;
     line-height: 1.71;
     justify-content: space-between;
+}
+.box-skills-icons
+{
+  display: flex;
+
+  
+}
+use
+{
+   
     
 }
 .skill
@@ -190,6 +205,7 @@ ul {
     width: 270px;
     height: 95px;
     text-align: left;
+    line-height: 24px;
 }
 .title1 
 {
