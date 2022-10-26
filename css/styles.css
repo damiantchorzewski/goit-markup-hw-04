@@ -191,17 +191,25 @@ ul {
 }
 .box-skills-icons
 {
-  display: flex;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+.box-skills-icons
+{
+    padding-bottom: 30px;
+}
+.skill-icon 
+{
+    height: 120px;
+    width: 270px;
+   text-align: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding-top: 30px;
+}
 
-  
-}
-use
-{
-   
-    
-}
-.skill
-{
+.skill{
     width: 270px;
     height: 95px;
     text-align: left;
