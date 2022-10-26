@@ -7,15 +7,20 @@ body
     color: #757575;
     background: #FFFFFF;
 }
-a:hover 
+a:hover
+
 {
     color: #2196F3;
+    
 }
 a:focus
 {
     color: #2196F3;
 }
-
+.icon-mail
+{
+    align-items: center;
+    }
 h4
 {
     letter-spacing: 0.03em;
@@ -123,6 +128,7 @@ ul {
     font-weight: 500;
     color: #757575;
 }
+
 .nav-header-item {
     color: #000000;
     font-weight: 500;
@@ -159,6 +165,7 @@ ul {
     margin-right: 225px;
     margin-top: 106px;
     margin-bottom: 106px;
+
 }
 .btn-baner
 {
@@ -208,7 +215,6 @@ ul {
     border-radius: 4px;
     padding-top: 30px;
 }
-
 .skill{
     width: 270px;
     height: 95px;
