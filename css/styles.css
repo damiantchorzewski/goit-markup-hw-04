@@ -353,6 +353,8 @@ ul
     justify-content: center;
     margin-bottom: 56px;
 }
+.bt:hover
+{box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 .btn
 {
     height: 38px;
@@ -369,13 +371,17 @@ ul
     margin-right: 8px;
 }
 
+.post-figure:hover
+{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .post-figure
 {
     box-sizing: border-box;
     background: #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
     margin: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 5%;
     line-height:2.8;
 }
 .list-post
