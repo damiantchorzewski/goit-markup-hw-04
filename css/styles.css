@@ -269,6 +269,12 @@ ul {
     color: #212121;
     padding-bottom: 35px;
 }
+.title3
+{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: ;
+}
 .team-cards
 {
     display: flex;
@@ -414,11 +420,6 @@ padding-bottom: 94px;
     padding-bottom: 30px;
     padding-top: 16px
 }
-.list-social-media
-{
-   
-}
-
 .media-btn
 {
     border-radius: 50%;
@@ -432,4 +433,40 @@ padding-bottom: 94px;
 {
     background-color: #2196F3;
     --color3: #fff;
+}
+.footer-socialmedia
+{
+    display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+.social-link
+{
+ display: flex;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+       
+}
+.footer-socials-link:hover,
+.footer-socials-link:focus
+{
+    --color3:#2196F3;
+}
+.social-icon-white
+{
+width: 20px;
+height: 20px;
+}
+.social-link:hover
+{
+    background-color: #2196F3;
+}
+.section-follow-team
+{
+padding-bottom:
 }
