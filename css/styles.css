@@ -79,6 +79,9 @@ ul {
 .footer-index
 {
     background: #2F303A;
+    display: flex;
+    flex-direction: column;
+
 }
 .footer-content
 {
@@ -271,9 +274,9 @@ ul {
 }
 .title3
 {
-    text-align: center;
+    
     padding-bottom: 20px;
-    padding-right: ;
+    
 }
 .team-cards
 {
@@ -438,7 +441,8 @@ padding-bottom: 94px;
 {
     display: flex;
         gap: 10px;
-        justify-content: center;
+        
+       
     }
     
 .social-link
@@ -466,7 +470,11 @@ height: 20px;
 {
     background-color: #2196F3;
 }
-.section-follow-team
+.container-social
 {
-padding-bottom:
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 15px 0 15px;
+        display: flex;
+        flex-wrap: wrap;
 }
