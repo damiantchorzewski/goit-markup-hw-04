@@ -7,20 +7,19 @@ body
     color: #757575;
     background: #FFFFFF;
 }
-a:hover
 
+.icon-phone:hover,
+.icon-mail:hover,
+.icon-phone:focus,
+.icon-mail:focus,
+a:focus,
+a:hover
 {
+    --color2: #2196F3;
+    --color5: #2196F3;
     color: #2196F3;
-    
-}
-a:focus
-{
-    color: #2196F3;
-}
-.icon-mail
-{
-    align-items: center;
     }
+
 h4
 {
     letter-spacing: 0.03em;
@@ -94,9 +93,6 @@ ul {
     display: flex;
     align-items: center;
 }
-.address-tel {
-    margin-left: 50px;
-}
 .nav-header-item,
 .address-mail,
 .address-tel,
@@ -105,7 +101,7 @@ ul {
 }
 .nav-header-item {
     margin-right: 46px;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 .address {
@@ -127,6 +123,7 @@ ul {
     font-size: 14px;
     font-weight: 500;
     color: #757575;
+    margin-right: 30px;
 }
 
 .nav-header-item {
