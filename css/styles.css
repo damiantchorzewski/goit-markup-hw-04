@@ -10,8 +10,6 @@ body
 
 .icon-phone:hover,
 .icon-mail:hover,
-.icon-phone:focus,
-.icon-mail:focus,
 a:focus,
 a:hover
 {
@@ -26,6 +24,22 @@ h4
     text-transform: uppercase;
     color: #212121;
     
+}
+.list-clients
+{
+    display: flex;
+    justify-content: center;
+}
+.icon-client
+{
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        margin:15px;
+        padding: 17.71px 32px 14.25px 32px;
+}
+.icon-btn{
+    background: none;
+    border:none;
 }
 h5
 {
@@ -135,13 +149,13 @@ ul {
 }
 .section-baner
 {
-    background:#2F303A; 
-    background-image: url(/images/background-baner.jpg);
+    background:linear-gradient(#afffaf00, #2F303A), url(/images/background-baner.jpg);
     background-repeat:no-repeat;   
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     padding-top: 94px;
     padding-bottom: 94px;
+   
 }
 .baner-text
 {
