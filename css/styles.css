@@ -11,11 +11,16 @@ body
 .icon-phone:hover,
 .icon-mail:hover,
 a:focus,
-a:hover
+a:hover,
+.icon-btn:hover,
+.icon-btn:focus
 {
     --color2: #2196F3;
     --color5: #2196F3;
+    --color3: #2196F3;
     color: #2196F3;
+    border-color: #2196F3;
+    
     }
 
 h4
@@ -32,14 +37,15 @@ h4
 }
 .icon-client
 {
-    border: 1px solid #AFB1B8;
-        border-radius: 4px;
         margin:15px;
-        padding: 17.71px 32px 14.25px 32px;
+       
 }
 .icon-btn{
     background: none;
-    border:none;
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        padding: 17.71px 32px 14.25px 32px;
+    
 }
 h5
 {
@@ -400,4 +406,30 @@ padding-bottom: 94px;
 }
 #btn {
     margin-right: 8px;
+}
+.list-social-media
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    padding-top: 16px
+}
+.list-social-media
+{
+   
+}
+
+.media-btn
+{
+    border-radius: 50%;
+    border: none;
+    background: none;
+    width: 44px;
+    height: 44px
+}
+.media-btn:hover,
+.media-btn:focus
+{
+    background-color: #2196F3;
+    --color3: #fff;
 }
