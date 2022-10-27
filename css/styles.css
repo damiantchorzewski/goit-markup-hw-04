@@ -158,7 +158,8 @@ ul {
 }
 .section-baner
 {
-    background:linear-gradient(#afffaf00, #2F303A), url(/images/background-baner.jpg);
+   
+    background-image: url(/images/background-baner.jpg), linear-gradient(#afffaf00, #2F303A);
     background-repeat:no-repeat;   
     background-position: center;
     background-size: contain;
