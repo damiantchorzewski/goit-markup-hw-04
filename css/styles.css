@@ -76,18 +76,8 @@ ul {
     padding: 0;
     letter-spacing: 0.03em;
 }
-.footer-index
-{
-    background: #2F303A;
-    display: flex;
-    flex-direction: column;
 
-}
-.footer-content
-{
-    display: inline;
-    
-}
+h3{ color: #FFFFFF;}
 .btn-order:hover
 {
     color:#000000;
@@ -112,6 +102,7 @@ ul {
     height: 80px;
 }
 .nav-header,
+.address-tel,
 .address {
     display: flex;
     align-items: center;
@@ -130,6 +121,7 @@ ul {
 .address {
     margin-left: auto;
     justify-content: flex-end;
+    gap:30px;
 }
 .logo {
     font-family: 'Raleway';
@@ -140,13 +132,15 @@ ul {
     color: #000000;
     text-decoration: none;
     margin-right: 93px;
+    text-align: left;
 }
 .address-mail,
 .address-tel {
     font-size: 14px;
     font-weight: 500;
     color: #757575;
-    margin-right: 30px;
+text-align: left;
+
 }
 
 .nav-header-item {
@@ -158,13 +152,27 @@ ul {
 }
 .section-baner
 {
-    background:linear-gradient(#afffaf00, #2F303A), url(../images/background-baner.jpg);
+    background-image:linear-gradient(#2F303A40, #2F303A40),
+    url(../images/background-baner.jpg);
     background-repeat:no-repeat;   
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     padding-top: 94px;
     padding-bottom: 94px;
+    
+    width: 100%;
+        margin: 0 auto;
+        max-width: 1600px;
+      
+        align-items: center;
+    
+    
+    
    
+
+    
+    
+  
 }
 .baner-text
 {
@@ -185,6 +193,7 @@ ul {
     margin-right: 225px;
     margin-top: 106px;
     margin-bottom: 106px;
+    
 
 }
 .btn-baner
@@ -303,6 +312,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     color: #ffffff;
+    
 }
 .address-item
 {
@@ -448,7 +458,7 @@ padding-bottom: 94px;
 {
     display: flex;
         gap: 10px;
-        
+        align-items: center;
        
     }
     
@@ -478,11 +488,32 @@ height: 20px;
 {
     background-color: #2196F3;
 }
-.container-social
+
+
+.section-footer
 {
+    display: flex;
+    padding-left:px;
+    padding-top: 94px; 
+    padding-bottom: 94px;
+    background: #2F303A;
+  justify-content: left;
+  
+ 
+
+   
+        
+}
+.container-footer{
+    display: flex;
+    width: 100%;
         margin: 0 auto;
         max-width: 1200px;
         padding: 0 15px 0 15px;
-        display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        gap:70px;
+}
+.box-social
+{
+    padding-bottom: 40px;
 }
