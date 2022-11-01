@@ -98,6 +98,9 @@ h3 {
 .portfolio-list {
   text-decoration: none;
 }
+.address-mail {
+  display: flex;
+}
 .nav-header-item {
   margin-right: 46px;
   justify-content: space-between;
